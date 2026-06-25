@@ -7,6 +7,7 @@
     android:orientation="horizontal"
     android:gravity="center"
     android:padding="4dp">
+    
     <TextView
         android:id="@+id/tv_lock_month"
         android:layout_width="wrap_content"
@@ -24,7 +25,9 @@
         android:text="۴"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
+        android:layout_marginStart="6dp"
         android:layout_marginEnd="6dp" />
+    
     <TextView
         android:id="@+id/tv_lock_day_of_week"
         android:layout_width="wrap_content"
