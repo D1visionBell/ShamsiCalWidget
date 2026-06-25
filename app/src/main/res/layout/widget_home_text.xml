@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:gravity="center"
+    android:background="@drawable/widget_background"
     android:paddingTop="2dp"
     android:paddingBottom="2dp"
-    android:paddingStart="4dp"
-    android:paddingEnd="4dp">
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp">
 
     <TextView
         android:id="@+id/tv_home_text"
