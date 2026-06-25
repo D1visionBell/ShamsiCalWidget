@@ -18,7 +18,7 @@
         android:includeFontPadding="false"
         android:text="چهارشنبه"
         android:textColor="@color/widget_text_primary"
-        android:textSize="23sp" />
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/tv_day_number"
@@ -30,7 +30,7 @@
         android:includeFontPadding="false"
         android:text="۴"
         android:textColor="@color/widget_text_primary"
-        android:textSize="80sp" />
+        android:textSize="100sp" />
 
     <TextView
         android:id="@+id/tv_month_year"
@@ -43,6 +43,6 @@
         android:includeFontPadding="false"
         android:text="تیر ۱۴۰۵"
         android:textColor="@color/widget_text_secondary"
-        android:textSize="21sp" />
+        android:textSize="35sp" />
 
 </RelativeLayout>
