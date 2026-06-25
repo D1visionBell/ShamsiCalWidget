@@ -9,10 +9,9 @@
     android:maxResizeHeight="60dp"
     android:minResizeWidth="140dp"
     android:minResizeHeight="40dp"
-    android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="0"
     android:initialLayout="@layout/widget_lock"
-    android:resizeMode="horizontal"
+    android:resizeMode="horizontal|vertical"
     android:widgetCategory="keyguard|home_screen"
     android:description="@string/widget_lock_name"
     android:previewImage="@drawable/ic_launcher" />
