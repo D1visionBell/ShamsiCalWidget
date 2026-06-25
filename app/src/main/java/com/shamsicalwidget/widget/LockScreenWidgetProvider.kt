@@ -13,7 +13,8 @@ import com.shamsicalwidget.util.JalaliCalendar
 class LockScreenWidgetProvider : AppWidgetProvider() {
 
     override fun onUpdate(context: Context, appWidgetManager: AppWidgetManager, appWidgetIds: IntArray) {
-        appWidgetIds.forEach { updateWidget(context, appWidgetManager, it) }
+    WidgetUpdateService.scheduleDailyAlarm(context)
+    appWidgetIds.forEach { updateWidget(context, appWidgetManager, it) }
     }
 
     companion object {
