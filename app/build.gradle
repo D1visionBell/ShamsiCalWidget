@@ -7,6 +7,8 @@ android {
     namespace 'com.shamsicalwidget'
     compileSdk 34
 
+    archivesBaseName = "ShamsiCalWidget"
+
     defaultConfig {
         applicationId "com.shamsicalwidget"
         minSdk 26
@@ -18,12 +20,11 @@ android {
     buildTypes {
         debug {
             versionNameSuffix ""
-            archivesBaseName "ShamsiCalWidget"
         }
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-       }
+        }
     }
 
     compileOptions {
