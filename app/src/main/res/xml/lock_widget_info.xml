@@ -14,4 +14,4 @@
 
     android:initialLayout="@layout/widget_lock"
 
-    android:widgetCategory="keyguard"
+    android:widgetCategory="keyguard"/>
