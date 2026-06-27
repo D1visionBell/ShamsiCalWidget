@@ -59,14 +59,23 @@
                 android:resource="@xml/lock_widget_info" />
         </receiver>
 
-        <!-- Boot receiver -->
         <receiver
-            android:name=".widget.BootReceiver"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-            </intent-filter>
+                android:name=".widget.BootReceiver"
+                android:exported="true">
+
+               <intent-filter>
+
+                      <action
+                 android:name="android.intent.action.BOOT_COMPLETED"/>
+
+                      <action
+                 android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+
+                     <action
+                 android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+
+                    </intent-filter>
+
         </receiver>
 
         <!-- Daily update receiver -->
