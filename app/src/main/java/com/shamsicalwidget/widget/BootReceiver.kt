@@ -18,11 +18,8 @@ class BootReceiver : BroadcastReceiver() {
 
         val manager =
 
-            AppWidgetManager.getInstance(
+            AppWidgetManager.getInstance(context)
 
-                context
-
-            )
 
         manager.getAppWidgetIds(
 
@@ -48,6 +45,7 @@ class BootReceiver : BroadcastReceiver() {
 
         }
 
+
         manager.getAppWidgetIds(
 
             ComponentName(
@@ -72,6 +70,7 @@ class BootReceiver : BroadcastReceiver() {
 
         }
 
+
         manager.getAppWidgetIds(
 
             ComponentName(
@@ -95,6 +94,7 @@ class BootReceiver : BroadcastReceiver() {
             )
 
         }
+
 
         WidgetUpdateService.scheduleDailyAlarm(
 
