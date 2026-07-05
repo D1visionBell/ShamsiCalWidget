@@ -161,7 +161,7 @@ app/src/main/
 
 ## ⚠️ سازگاری
 
-<table align="center">
+<table>
 
 <tr>
 <th>دستگاه</th>
