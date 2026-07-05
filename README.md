@@ -84,53 +84,6 @@
 
 ---
 
-## 🏗 معماری پروژه
-
-```text
-app/src/main/
-├── AndroidManifest.xml
-├── java/com/shamsicalwidget/
-│
-├── util/
-│   └── JalaliCalendar.kt
-│
-├── widget/
-│   ├── HomeWidgetProvider.kt
-│   ├── HomeTextWidgetProvider.kt
-│   ├── LockScreenWidgetProvider.kt
-│   ├── WidgetUpdateService.kt
-│   └── BootReceiver.kt
-│
-└── res/
-    ├── drawable/
-    │   └── widget_background.xml
-    │
-    ├── font/
-    │   ├── vazirmatn_medium.ttf
-    │   ├── vazirmatn_bold.ttf
-    │   └── fonts.xml
-    │
-    ├── layout/
-    │   ├── widget_home.xml
-    │   ├── widget_home_text.xml
-    │   └── widget_lock.xml
-    │
-    ├── values/
-    │   ├── colors.xml
-    │   ├── strings.xml
-    │   └── themes.xml
-    │
-    ├── values-night/
-    │   └── colors.xml
-    │
-    └── xml/
-        ├── home_widget_info.xml
-        ├── home_text_widget_info.xml
-        └── lock_widget_info.xml
-```
-
----
-
 ## 📲 نصب ویجت
 
 ### صفحه اصلی
