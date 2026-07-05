@@ -1,19 +1,21 @@
 <div align="center">
 
-<img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" width="144">
+<img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="144">
 
 # ShamsiCal Widget
 
 ### ویجت تقویم شمسی برای اندروید
 
 تقویم شمسی مینیمال برای صفحه اصلی و صفحه قفل اندروید
+
 الهام گرفته از اپ **ShamsiCal** برای iOS
 
-<br>
-
-<img src="assets/home_widget.png" width="250">
-<img src="assets/home_text_widget.png" width="250">
-<img src="assets/lock_widget.png" width="250">
+<p align="center">
+<img src="https://img.shields.io/badge/Android-8%2B-3DDC84">
+<img src="https://img.shields.io/badge/Widgets-3-blue">
+<img src="https://img.shields.io/badge/Theme-Light%20%26%20Dark-6f42c1">
+<img src="https://img.shields.io/badge/Language-FA-orange">
+</p>
 
 </div>
 
@@ -25,31 +27,21 @@
 
 نمایش روز هفته، عدد روز و ماه شمسی در قالبی مینیمال و خوانا.
 
-```
-┌─────────────────────┐
-│       پنجشنبه       │
-│                     │
-│          ۴          │
-│                     │
-│      تیر ۱۴۰۵       │
-└─────────────────────┘
-```
-
----
-
 ### 📝 ویجت متنی 3×1
 
 نمایش فشرده تاریخ شمسی برای کاربرانی که طراحی ساده‌تر را ترجیح می‌دهند.
 
-```
-┌──────────────────────────────┐
-│        پنجشنبه ۴ تیر         │
-└──────────────────────────────┘
-```
+<div align="right">
 
-* هماهنگ با طراحی ویجت اصلی
-* پس‌زمینه روشن در Light Mode
-* پس‌زمینه تیره در Dark Mode
+• هماهنگ با طراحی ویجت اصلی<br>
+• پس‌زمینه روشن در Light Mode<br>
+• پس‌زمینه تیره در Dark Mode
+
+</div>
+
+<p align="center">
+<img src="assets/HomeScreen.jpg" width="260">
+</p>
 
 ---
 
@@ -57,44 +49,36 @@
 
 نمایش افقی روز، عدد و ماه شمسی روی صفحه قفل.
 
+<div align="right">
+
 پشتیبانی از:
 
-* Samsung One UI
-* Good Lock
-* LockStar
-* برخی لانچرهای شخص ثالث
+• Samsung One UI<br>
+• Good Lock<br>
+• LockStar<br>
+• برخی لانچرهای شخص ثالث
 
-از طریق:
+</div>
 
-```xml
-widgetCategory="keyguard|home_screen"
-```
+<p align="center">
+<img src="assets/LockScreen.jpg" width="260">
+</p>
 
 ---
 
 ## 🚀 امکانات
 
-* ✅ تقویم شمسی دقیق و مستقل
-* ✅ پشتیبانی از صفحه اصلی و صفحه قفل
-* ✅ طراحی مینیمال
-* ✅ سازگار با Dark Mode
-* ✅ بروزرسانی خودکار در ابتدای هر روز
-* ✅ بازیابی خودکار پس از راه‌اندازی مجدد دستگاه
-* ✅ فونت زیبای Vazirmatn
-* ✅ گوشه‌های گرد و طراحی مدرن
-* ✅ مصرف بسیار کم باتری
+<div align="right">
 
----
-
-## 📸 پیش‌نمایش
-
-<div align="center">
-
-<img src="assets/home_widget.png" width="240">
-
-<img src="assets/home_text_widget.png" width="240">
-
-<img src="assets/lock_widget.png" width="240">
+✅ تقویم شمسی دقیق و مستقل<br>
+✅ پشتیبانی از صفحه اصلی و صفحه قفل<br>
+✅ طراحی مینیمال<br>
+✅ سازگار با Dark Mode<br>
+✅ بروزرسانی خودکار در ابتدای هر روز<br>
+✅ بازیابی خودکار پس از راه‌اندازی مجدد دستگاه<br>
+✅ فونت Vazirmatn<br>
+✅ گوشه‌های گرد و طراحی مدرن<br>
+✅ مصرف بسیار کم باتری
 
 </div>
 
@@ -154,10 +138,14 @@ app/src/main/
 1. صفحه اصلی را لمس و نگه دارید.
 2. وارد بخش **Widgets** شوید.
 3. **ShamsiCal Widget** را انتخاب کنید.
-4. یکی از ویجت‌های زیر را اضافه کنید:
+4. یکی از ویجت‌های زیر را اضافه کنید.
 
-* 🗓 تقویم شمسی 2×2
-* 📝 تقویم شمسی متنی 3×1
+<div align="right">
+
+🗓 تقویم شمسی 2×2<br>
+📝 تقویم شمسی متنی 3×1
+
+</div>
 
 ---
 
@@ -173,24 +161,58 @@ app/src/main/
 
 ## ⚠️ سازگاری
 
-| دستگاه               | پشتیبانی |
-| -------------------- | -------- |
-| Samsung One UI 5+    | ✅        |
-| Samsung One UI 6+    | ✅        |
-| Good Lock + LockStar | ✅        |
-| Pixel Launcher       | ❌        |
-| AOSP                 | ❌        |
-| لانچرهای شخص ثالث    | ⚠️ محدود |
+<table align="center">
+
+<tr>
+<th>دستگاه</th>
+<th>پشتیبانی</th>
+</tr>
+
+<tr>
+<td>Samsung One UI 5+</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Samsung One UI 6+</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Good Lock + LockStar</td>
+<td align="center">✅</td>
+</tr>
+
+<tr>
+<td>Pixel Launcher</td>
+<td align="center">❌</td>
+</tr>
+
+<tr>
+<td>AOSP</td>
+<td align="center">❌</td>
+</tr>
+
+<tr>
+<td>لانچرهای شخص ثالث</td>
+<td align="center">⚠️ محدود</td>
+</tr>
+
+</table>
 
 ---
 
 ## 🎨 طراحی
 
-* فونت: **Vazirmatn**
-* گوشه‌های گرد
-* Light & Dark Theme
-* طراحی مینیمال و خوانا
-* هماهنگ با زبان فارسی
+<div align="right">
+
+• فونت: **Vazirmatn**<br>
+• گوشه‌های گرد<br>
+• Light & Dark Theme<br>
+• طراحی مینیمال و خوانا<br>
+• هماهنگ با زبان فارسی
+
+</div>
 
 ---
 
