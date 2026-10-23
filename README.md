@@ -8,8 +8,6 @@
 
 تقویم شمسی مینیمال برای صفحه اصلی و صفحه قفل اندروید، و کارت شناور روی دسکتاپ ویندوز
 
-الهام گرفته از اپ **ShamsiCal** برای iOS
-
 <p align="center">
 <img src="https://img.shields.io/badge/Android-8%2B-3DDC84">
 <img src="https://img.shields.io/badge/Windows-10%2B-0078D6">
